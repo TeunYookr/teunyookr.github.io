@@ -369,13 +369,13 @@ table th {
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 6px;
+  padding: 8px;
 }
 
 .col-75 {
   float: left;
   width: 0.5vw;
-  margin-top: 6px;
+  padding: 8px;
 }
 
 /* Clear floats after the columns */

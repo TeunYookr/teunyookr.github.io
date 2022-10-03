@@ -96,3 +96,12 @@ body{ font: 14px sans-serif; text-align: center; }
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
 }
+
+.btn-danger{
+        color:#fff;
+        background-color:#dc3545;
+        border-color:#dc3545}
+.btn-danger:hover{
+        color:#fff;
+        background-color:#c82333;
+        border-color:#bd2130}

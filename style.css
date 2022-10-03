@@ -4,7 +4,9 @@
 
 body{
         font: 14px sans-serif; 
-        text-align: center; 
+        text-align: center;
+        width: 808px;
+        height: 480px;
         margin: 0;}
 
         .header 

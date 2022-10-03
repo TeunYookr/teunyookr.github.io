@@ -260,3 +260,27 @@ table th {
               outline: none;
               box-shadow: 0px 0px 0px 5px #480f5d;
           }
+
+  
+  .grid-container {
+              display: grid;
+              grid-template-columns: 50% 50%;
+              gap: 1px;
+              padding: 10px;
+              width: 30%;
+              position: absolute;
+              top: 55%;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              height: 50%;
+              border: 1px black solid;
+              background-color: #FFFFFF;
+              }
+  
+              .grid-container > div {
+              background-color: rgba(255, 255, 255, 0.8);
+              text-align: center;
+              font-size: 1.0vmax;
+              max-height: 95%;
+  }

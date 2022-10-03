@@ -48,17 +48,17 @@ body{ font: 14px sans-serif; text-align: center; }
             max-width: 130px;
         }
 
-        li 
+        .logout 
         {
             float: right;
         }
 
-        li a 
+        .logout a 
         {
             display: block;
             color: white;
             text-align: center;
-            padding: 14px 16px;
+            padding: 14px;
             text-decoration: none;
             background-color: #111;
             height: 50px;
@@ -67,7 +67,7 @@ body{ font: 14px sans-serif; text-align: center; }
             right: 0px;
         }
 
-        li a:hover 
+        .logout a:hover 
         {
             background-color: #111;
         }

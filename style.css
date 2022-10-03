@@ -72,7 +72,24 @@ body{ font: 14px sans-serif; text-align: center; }
             right: 0px;
         }
 
-        
+        li a 
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #111;
+            height: 50px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        li a:hover 
+        {
+            background-color: #111;
+        }
 
         .logout :hover 
         {

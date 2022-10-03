@@ -520,9 +520,9 @@ body{ font: 14px sans-serif; text-align: center; }
 .btn-warning{
   color:#212529;
   background-color:#ffc107;
-  border-color:#ffc107
-    display: inline-block;
-    font-weight: 400;
+  border-color:#ffc107;
+  display: inline-block;
+  font-weight: 400;
     color: #212529;
     text-align: center;
     vertical-align: middle;

@@ -404,5 +404,5 @@ input[type=submit]:hover {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-  font-size: 0.7vw;
+  background-color: #FFFFFF;
 }

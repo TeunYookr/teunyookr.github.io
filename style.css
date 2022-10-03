@@ -1,0 +1,495 @@
+h1 {
+
+  font-size: 1.4vw;
+
+}
+
+input[type=text],
+select,
+textarea {
+  width: 11vw;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 0.7vw;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 18vmax;
+  top: 50px;
+  right: 16px;
+  overflow: hidden;
+}
+
+.container2 {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  padding-top: 25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  float: left;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 0.5vw;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 7vmax;
+    margin-top: 0;
+  }
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  width: 100%;
+  font-size: 0.5vmax;
+}
+
+.roomcard {
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  width: 25%;
+  font-size: 0.8vmin;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.roomheadercard {
+  height: 100%;
+  background: #ea5b0c;
+  color: white;
+  font-size: 0.8vmax;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.roomcontainercard {
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+  width: 20%;
+}
+
+.roomcard2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  width: 25%;
+  font-size: 0.8vmin;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+}
+
+.roomheadercard2 {
+  height: 100%;
+  background: #ea5b0c;
+  color: white;
+  font-size: 0.8vmax;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.roomcontainercard2 {
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+  width: 20%;
+}
+
+.headercard {
+  height: 30%;
+  background: #ea5b0c;
+  color: white;
+  font-size: 0.8vmax;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.containercard {
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+}
+
+.alarmcard {
+  background: #ffffff;
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+}
+
+.yellowalarmcard {
+  background: #ffff00;
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+}
+
+.redalarmcard {
+  background: #ff0000;
+  padding: 0.5vw 1vw;
+  font-size: 0.8vw;
+}
+
+
+.grid-container_plot {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  bottom: 0;
+  right: 20%;
+  height: 51.2%;
+  width: 55%;
+  border: 1px black solid;
+}
+
+.grid-container_plot>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btn {
+  margin: auto;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 3.5vw 10vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6vmax;
+  border: 1px black solid;
+}
+
+#btn1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#btn2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#btn3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#btn4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1px;
+  padding: 10px;
+  width: 20%;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  border: 1px black solid;
+  background-color: #FFFFFF;
+}
+
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1.0vmax;
+  max-height: 95%;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1px;
+  padding: 10px;
+  width: 20%;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  border: 1px black solid;
+  background-color: #FFFFFF;
+}
+
+.grid-container2>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1.0vmax;
+  max-height: 95%;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1px;
+  padding: 10px;
+  width: 20%;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  border: 1px black solid;
+  background-color: #FFFFFF;
+}
+
+.grid-container3>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1.0vmax;
+  max-height: 95%;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1px;
+  padding: 10px;
+  width: 40%;
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  border: 1px black solid;
+  background-color: #FFFFFF;
+}
+
+.grid-container4>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1.0vmax;
+  max-height: 95%;
+}
+
+#item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#item2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#item4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#item5 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#item6 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#item7 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#item8 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#item9 {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+ul {
+  box-sizing: content-box;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ea5b0c;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #111;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+ul img {
+  display: block;
+  margin: auto;
+  max-height: 50px;
+  max-width: 130px;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 4vw;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+

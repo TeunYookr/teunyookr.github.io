@@ -293,9 +293,8 @@ table th {
               padding: 10px;
               position: absolute;
               top: 50px;
-              left: 25%;
               bottom: 0;
-              right: 20%;
+              right: 0%;
               height: 46.2%;
               width: 55%;
               border: 1px black solid;

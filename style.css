@@ -526,11 +526,7 @@ body{ font: 14px sans-serif; text-align: center; }
     color: #212529;
     text-align: center;
     vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-    background-color: transparent;
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -539,18 +535,3 @@ body{ font: 14px sans-serif; text-align: center; }
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
 }
-.btn-warning:hover{
-  color:#212529;
-  background-color:#e0a800;
-  border-color:#d39e00}
-.btn-warning.focus,.btn-warning:focus{
-  color:#212529;
-  background-color:#e0a800;
-  border-color:#d39e00;
-  box-shadow:0 0 0 .2rem rgba(222,170,12,.5)}
-.btn-warning.disabled,.btn-warning:disabled{
-  color:#212529;
-  background-color:#ffc107;
-  border-color:#ffc107}
-.btn-warning:not(:disabled):not(.disabled).active,
-.btn-warning:not(:disabled):not(.disabled):active,.show>.btn-warning.dropdown-toggle{color:#212529;background-color:#d39e00;border-color:#c69500}.btn-warning:not(:disabled):not(.disabled).active:focus,.btn-warning:not(:disabled):not(.disabled):active:focus,.show>.btn-warning.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(222,170,12,.5)}

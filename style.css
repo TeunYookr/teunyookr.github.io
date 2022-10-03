@@ -122,7 +122,10 @@ body{ font: 14px sans-serif; text-align: center; }
         border-color:#bd2130}
 
 .container {
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    overflow: hidden;
 }
 
 input[type=text], input[type=password] {

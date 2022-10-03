@@ -221,7 +221,7 @@ table th {
               position: absolute;
               left: 50%;
               transform: translate(-50%, -50%);
-              font-size: 16px;
+              font-size: 12px;
               font-family: "Inter", sans-serif;
               color: #3f3f3f;
               z-index: 99;
@@ -244,6 +244,7 @@ table th {
               background: #cacaca;
               top: -4%;
               left: 20%;
+              color: white;
           }
           .checkbox:checked:before {
               opacity: 0;

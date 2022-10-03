@@ -399,3 +399,10 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 0.7vw;
+}

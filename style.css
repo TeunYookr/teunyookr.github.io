@@ -386,55 +386,7 @@ input[type=submit]:hover {
   grid-row: 3;
 }
 
-ul {
-  box-sizing: content-box;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ea5b0c;
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  background-color: #111;
-  height: 50px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-ul img {
-  display: block;
-  margin: auto;
-  max-height: 50px;
-  max-width: 130px;
-}
-
-
-body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -486,4 +438,82 @@ span.psw {
 }
 
 
+/* New to spreadsheet */
 
+body{ font: 14px sans-serif; text-align: center; }
+
+        ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #c8c8c8;
+            height: 50px;
+        }
+
+        .footer 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FFFFFF;
+            height: 50px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+        }
+
+        
+
+        .footer p
+        {
+            position: absolute;
+            float: right;
+            bottom: 0;
+            right: 130px;
+            margin: 0;
+        }
+
+        .footer img
+        {
+            float: right;
+            display: block;
+            margin: auto;
+            max-height: 50px;
+            max-width: 130px;
+        }
+
+        li 
+        {
+            float: right;
+        }
+
+        li a 
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #111;
+            height: 50px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        li a:hover 
+        {
+            background-color: #111;
+        }
+
+        ul img
+        {
+            display: block;
+            margin: auto;
+            max-height: 50px;
+            max-width: 130px;
+        }

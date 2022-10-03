@@ -305,3 +305,59 @@ table th {
               text-align: center;
               padding: 20px 0;
   }
+  
+  .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px red solid;
+      width: 100%;
+      font-size: 0.5vmax;
+  }
+  
+  .plotcard {
+      display: flex;
+      flex-direction: column;
+      border: 1px red solid;
+      width: 25%;
+      font-size: 0.8vmin;
+      position: absolute;
+      top: 50px;
+      left: 0px;
+  }
+  
+  .plotheadercard {
+      height: 100%;
+      background: #ea5b0c;
+      color: white;
+      font-size: 0.8vmax;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .plotcontainercard {
+      padding: 0.5vw 1vw;
+      font-size: 0.8vw;
+      width: 20%;
+  }
+  
+  .headercard {
+      height: 30%;
+      background: #ea5b0c;
+      color: white;
+      font-size: 0.8vmax;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .containercard {
+      padding: 0.5vw 1vw;
+      font-size: 0.8vw;
+  }

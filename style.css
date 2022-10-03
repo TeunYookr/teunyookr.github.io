@@ -4,7 +4,7 @@
 
 body{ font: 14px sans-serif; text-align: center; }
 
-        ul 
+        .header 
         {
             list-style-type: none;
             margin: 0;
@@ -12,6 +12,15 @@ body{ font: 14px sans-serif; text-align: center; }
             overflow: hidden;
             background-color: #c8c8c8;
             height: 50px;
+        }
+
+
+        .header img
+        {
+            display: block;
+            margin: auto;
+            max-height: 50px;
+            max-width: 130px;
         }
 
         .footer 
@@ -72,13 +81,6 @@ body{ font: 14px sans-serif; text-align: center; }
             background-color: #111;
         }
 
-        ul img
-        {
-            display: block;
-            margin: auto;
-            max-height: 50px;
-            max-width: 130px;
-        }
 .btn-warning{
   background-color:#ffc107;
   border-color:#ffc107;

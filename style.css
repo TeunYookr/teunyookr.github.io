@@ -100,7 +100,7 @@ body{ font: 14px sans-serif; text-align: center; }
 .btn-danger{
         color:#fff;
         background-color:#dc3545;
-        border-color:#dc3545
+        border-color:#dc3545;
         margin-left: 1rem!important;
         display:inline-block;
         font-weight: 400;

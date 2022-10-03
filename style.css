@@ -284,3 +284,25 @@ table th {
               font-size: 1.0vmax;
               max-height: 95%;
   }
+
+  .grid-container_plot {
+              display: grid;
+              grid-template-columns: auto;
+              gap: 10px;
+              background-color: #FFFFFF;
+              padding: 10px;
+              position: absolute;
+              top: 50px;
+              left: 25%;
+              bottom: 0;
+              right: 20%;
+              height: 46.2%;
+              width: 55%;
+              border: 1px black solid;
+              }
+  
+              .grid-container_plot > div {
+              background-color: rgba(255, 255, 255, 0.8);
+              text-align: center;
+              padding: 20px 0;
+  }

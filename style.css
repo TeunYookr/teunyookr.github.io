@@ -412,3 +412,52 @@ label {
   display: inline-block;
   text-align: right;
 }
+
+  .roomcard {
+      display: flex;
+      flex-direction: column;
+      border: 1px red solid;
+      width: 25%;
+      font-size: 0.8vmin;
+      position: absolute;
+      top: 50px;
+      left: 0px;
+  }
+  
+  .roomheadercard {
+      height: 100%;
+      background: #ea5b0c;
+      color: white;
+      font-size: 0.8vmax;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .roomcontainercard {
+      padding: 0.5vw 1vw;
+      font-size: 0.8vw;
+      width: 20%;
+  }
+
+  
+  .alarmcard {
+      background: #ffffff;
+      padding: 0.5vw 1vw;
+      font-size: 0.8vw;
+  }
+  
+  .yellowalarmcard{
+      background: #ffff00;
+      padding: 0.5vw 1vw;
+      font-size: 0.8vw;
+  }
+  
+  .redalarmcard{
+      background: #ff0000;
+      padding: 0.5vw 1vw;
+      font-size: 0.8vw;
+  }

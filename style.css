@@ -37,8 +37,6 @@ body{
             background-color: #FFFFFF;
             height: 50px;
             position: relative;
-            bottom: 0px;
-            right: 0px;
             width: 100%;
         }
 
@@ -277,13 +275,7 @@ table th {
               grid-template-columns: 50% 50%;
               gap: 1px;
               padding: 10px;
-              width: 30%;
               position: relative;
-              top: 55%;
-              left: 0;
-              bottom: 0;
-              right: 0;
-              height: 37%;
               border: 1px black solid;
               background-color: #FFFFFF;
               }
@@ -302,11 +294,6 @@ table th {
               background-color: #FFFFFF;
               padding: 10px;
               position: relative;
-              top: 50px;
-              bottom: 0;
-              right: 0%;
-              height: 46.2%;
-              width: 55%;
               border: 1px black solid;
               }
   
@@ -331,8 +318,6 @@ table th {
       width: 25%;
       font-size: 0.8vmin;
       position: relative;
-      top: 50px;
-      left: 0px;
   }
   
   .plotheadercard {
@@ -341,10 +326,6 @@ table th {
       color: white;
       font-size: 0.8vmax;
     position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     width: 100%;
   }
   
@@ -360,10 +341,6 @@ table th {
       color: white;
       font-size: 0.8vmax;
     position: relative;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     width: 100%;
   }
   

@@ -37,7 +37,7 @@ body{
             overflow: hidden;
             background-color: #FFFFFF;
             height: 50px;
-            position: absolute;
+            position: relative;
             bottom: 0px;
             right: 0px;
             width: 100%;

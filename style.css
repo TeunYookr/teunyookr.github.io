@@ -15,8 +15,7 @@ body{
             overflow: hidden;
             background-color: #c8c8c8;
             height: 50px;
-            position: absolute;
-            top: 0px;
+            position: relative;
             width: 100%;
         }
 

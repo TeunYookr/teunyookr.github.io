@@ -190,6 +190,7 @@ table {
 table td, table th {
   border: 1px solid #ddd;
   padding: 8px;
+        background-color:white ;
 }
 
 table tr:nth-child(even){background-color: #f2f2f2;}
@@ -408,6 +409,7 @@ label {
   .roomcontainercard {
       padding: 0.5vw 1vw;
       font-size: 0.8vw;
+          background-color: white;
   }
 
   
